@@ -1,0 +1,61 @@
+
+/* ARDOISE */
+.paletteCouleurClass{
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: black;
+  margin: 3px;
+}
+#outils button{
+  padding: 3%;
+}
+
+li{
+  list-style-type: none;
+  margin: 2%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.6rem;
+}
+#outils li a {
+  text-decoration: none;
+  color: black;
+}
+.palette{
+display: flex;
+flex-direction: row;
+}
+#titreArdoise{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-weight:bold;
+  font-size: 3rem;
+}
+#outils ul{
+ margin: 5%;
+}
+canvas{
+  display:block;
+  background-color: white;
+  box-shadow: 1px 1px 12px #555;
+
+}
+#monCanvas{
+  margin-bottom: 6%;
+  margin: auto;
+}
+#canvas2{
+  border-radius: 25px;
+  height: 50px;
+
+}
+.fondArdoise{
+  background-color: #DFF2FF;
+}
+ button, #couleurs  div{
+  cursor: pointer;
+}
+.outils{
+  display: flex;
+  justify-content: space-around;
+}
